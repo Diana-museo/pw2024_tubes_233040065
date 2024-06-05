@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set padding for the entire webpage */
+/* body {
+    padding: 0 4rem;
+} */
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    color: #d30000;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.search-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.tombol {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.cathegory {
+    padding-top: 2rem;
+    /* padding-bottom: 3rem; */
+}
+
+.cathegory .table thead tr {
+    text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-search {
+        margin-top: 10px;
+    }
+}
+
+/* PDF REPORTING */
+@media print {
+    body .qwerty {
+        display: none;
+    }
+
+    .navbar {
+        background-color: #fff;
+    }
+}
