@@ -134,13 +134,13 @@ session_start();
     <div class="copyright">
         <p>&#169; Diana-Museo All Right Reserved</p>
         <div class="soc-med">
-            <a href="https://github.com/Diana-museo/">
+            <a href="">
                 <i class='bx bxl-github'></i>
             </a>
-            <a href="https://www.instagram.com/eidxx_24/">
+            <a href="">
                 <i class='bx bxl-instagram'></i>
             </a>
-            <a href="https://www.linkedin.com/in/emeralda-iffatud-diana-973aa71b6/">
+            <a href="">
                 <i class='bx bxl-linkedin-square'></i>
             </a>
         </div>
