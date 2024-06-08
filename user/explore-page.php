@@ -1,22 +1,7 @@
-<!-- <div class="dropdown">
-    <button class="dropbtn">
-        <a href="#explore" class="nav-link">
-            <i class='bx bx-compass'></i>
-            <span class="nav-link-title">Explore</span>
-        </a>
-    </button>
-    <div class="dropdown-content">
-        <a href="#">Opsi 1</a>
-        <a href="#">Opsi 2</a>
-        <a href="#">Opsi 3</a>
-    </div>
-</div> -->
-
 <?php
 require '../functions.php';
 $movies = query("SELECT * FROM movies");
 $cat = query("SELECT * FROM category");
-
 
 // Periksa session untuk login admin
 session_start();
@@ -61,13 +46,6 @@ if (isset($_GET['category_id'])) {
             <a href="user-view.php" class="logo">
                 CODEFLEX
             </a>
-
-            <!-- SEARCH BOX PART
-            <div class="search-box" id="search-box">
-                <input type="search" name="" id="search-input" placeholder="Search Movie">
-                <i class='bx bx-search-alt-2'></i>
-            </div> -->
-
             <div class="option">
                 <div class="select-wrapper">
                     <form method="GET" class="place">

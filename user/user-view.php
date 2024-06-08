@@ -38,11 +38,6 @@ session_start();
                 CODEFLEX
             </a>
 
-            <!-- SEARCH BOX PART
-            <div class="search-box" id="search-box">
-                <input type="search" name="" id="search-input" placeholder="Search Movie">
-                <i class='bx bx-search-alt-2'></i>
-            </div> -->
             <!-- LOGIN -->
             <div class="login-page">
                 <?php
