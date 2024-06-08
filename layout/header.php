@@ -30,6 +30,13 @@ $movies = query("SELECT * FROM movies LIMIT $firstData, $dataAmtPerPage");
 if (isset($_POST["search"])) {
     $movies = search($_POST["keyword"]);
 }
+
+$user_id = query("SELECT id FROM user");
+
+// Set session saat login berhasil
+$_SESSION['admin_logged_in'] = true;
+$_SESSION['admin_user_id'] = $user_id; // Ganti $user_id dengan ID pengguna yang sesuai
+
 ?>
 
 <!doctype html>
@@ -71,7 +78,7 @@ if (isset($_POST["search"])) {
                 Menu
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="profile.php">Admin Profile</a></li>
+                <li><a class="dropdown-item" href="../user/user-view.php">User Page</a></li>
                 <li><a class="dropdown-item" href="list-category.php">Category List</a></li>
                 <li><a class="dropdown-item" href="../print.php" target="_blank">PDF Report</a></li>
                 <li>

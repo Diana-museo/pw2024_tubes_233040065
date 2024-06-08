@@ -201,4 +201,16 @@ function register($data)
     return mysqli_affected_rows($conn);
 }
 
+function queryWithCategory($category_id)
+{
+    global $conn;
+    if ($category_id) {
+        $query = "SELECT * FROM movies WHERE category_id = $category_id";
+    } else {
+        $query = "SELECT * FROM movies";
+    }
+
+    return mysqli_query($conn, $query);
+}
+
 ?>
