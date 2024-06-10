@@ -71,23 +71,12 @@ $category = query("SELECT * FROM category");
 <body>
     <div class="navbar">
         <div class="navbar-logo">CODEFLEX</div>
-        <!-- <nav class="navbar bg-body-dark qwerty">
-            <div class="container-fluid qwerty">
-                <form class="d-flex" role="search" action="" method="post">
-                    <input class="form-control me-2" type="text" name="keyword" placeholder="Search" aria-label="Search"
-                        autofocus autocomplete="off" id="keyword" length="100">
-                    <button class="btn btn-outline-light" name="search" id="search-button" type="submit">Search</button>
-                    <img src="../assets/img/display/loader.gif" class="loader" style="padding: 0 5px; display: none;">
-                </form>
-            </div>
-        </nav> -->
         <div class="btn-group qwerty">
             <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Menu
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="profile.php">Admin Profile</a></li>
                 <li><a class="dropdown-item" href="header.php">Admin Dashboard</a></li>
                 <li>
                     <hr class="dropdown-divider">

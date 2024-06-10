@@ -64,7 +64,7 @@ session_start();
                     <i class='bx bx-compass'></i>
                     <span class="nav-link-title">Explore</span>
                 </a>
-                <a href="user-view.php #movies" class="nav-link">
+                <a href="#" class="nav-link">
                     <i class='bx bx-tv'></i>
                     <span class="nav-link-title">Movies</span>
                 </a>
